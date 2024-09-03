@@ -1,0 +1,57 @@
+a) Show all data of restaurants collection.
+db.Restaurants.find({})
+
+b) Display “name” and “review” from all restaurants collection.
+db.Restaurants.find({}, { name: 1, review: 1, _id: 0 })
+
+c) Display all data from CD without “location”; display the name of restaurants which have the facebook equal “ ToorSeaFood”.
+
+// Display all data from CD without the "location" field
+db.CD.find({}, { location: 0 })
+
+// Display the name of restaurants with the Facebook equal to "ToorSeaFood"
+db.Restaurants.find({ facebook: "ToorSeaFood" }, { name: 1, _id: 0 })
+
+
+d) Display the name, The cost and respective maxpeople from restaurants, by maxpeople descending order.
+db.Restaurants.find({}, { name: 1, cost: 1, maxPeople: 1, _id: 0 })
+              .sort({ maxPeople: -1 })
+
+e) Display the average of maxpeople from frestaurants collection.
+db.Restaurants.aggregate([
+  {
+    $group: {
+      _id: null,
+      averageMaxPeople: { $avg: "$maxPeople" }
+    }
+  }
+])
+
+f) Display the diference between the biggest and smallest value maxpeople.
+db.Restaurants.aggregate([
+  {
+    $group: {
+      _id: null,
+      maxPeopleMax: { $max: "$maxPeople" },
+      maxPeopleMin: { $min: "$maxPeople" }
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      difference: { $subtract: ["$maxPeopleMax", "$maxPeopleMin"] }
+    }
+  }
+])
+
+g) Display the restaurants that do not have a maximum capacity of more than 50 people.
+db.Restaurants.find({ maxPeople: { $lte: 50 } })
+
+h) Display the restaurant named IlDivinPanino'.
+db.Restaurants.find({ name: 'IlDivinPanino' })
+
+i) Show all restaurants that have the is causal tag.
+db.Restaurants.find({ is_casual: true })
+
+j) List the restaurants that have coordinates equal to 45.0772.
+db.Restaurants.find({ latitude: 45.0772, longitude: 45.0772 })

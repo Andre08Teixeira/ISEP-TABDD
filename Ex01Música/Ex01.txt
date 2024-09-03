@@ -1,0 +1,96 @@
+1. Show all CD collection data;
+   db.cd.find()
+
+2. Show all the data from the first two CDs;
+   db.cd.find().limit(2)
+
+3. Show only the data from the CDs;
+   db.cd.find({},(listamusicas:false}))
+
+4  Show the title and date of purchase of all CDs;. 
+   db.CDs.find({}, { _id: 0, titulo: 1, "data_compra": 1 })
+
+5. Show the date of purchase of all CDs; 
+   db.CDs.find({}, { _id: 0, "data_compra": 1 })
+
+6. Show the title of all CDs without repetitions; 
+   db.CDs.distinct("titulo")
+   db.getCollection('CDs').distinct('titulo');
+
+7. Show the titles of the CDs purchased at FNAC; 
+   db.CDs.find({ "local_compra": "FNAC" }, { _id: 0, "titulo": 1 });
+
+8. Show the id, title, date of purchase, amount paid and place of       purchase, of the CDs that were purchased at FNAC;
+
+ db.CDs.find({"local_compra": "FNAC"}, { _id: 1, "titulo": 1,   "data_compra": 1, "valor_pago": 1, "local_compra": 1 })
+
+
+9. Show CDs that were not purchased at FNAC. You should sort the      result.
+
+db.CDs.find({"local_compra": { $ne:"FNAC"}}, { _id: 1, "titulo": 1, "data_compra": 1, "valor_pago": 1, "local_compra": 1 }).sort({"titulo": 1})
+
+
+10. Show the title of the CDs without the place of purchase registered;
+
+db.CDs.find({"local_compra": {$exists: false }}, { _id: 1, "titulo": 1 }
+
+11. Show all data from CDs with the place of purchase registered; 
+    db.CDs.find({ "local_compra": { $exists: true } })
+
+12. Show all data for CDs whose title has a 'Z'; 
+    db.CDs.find({ "titulo": { $regex: /Z/ } }) (mal)
+
+13. Show the title, date of purchase, amount paid and the place of purchase of CDs whose title begins
+with the letter P, G or H; 
+db.CDs.find(
+  { "titulo": { $regex: /^[P|G|H]/ } },
+  { _id: 0, "titulo": 1, "data_compra": 1, "valor_pago": 1, "local_compra": 1 }
+)
+
+14. Show the title, date of purchase, amount paid and the place of purchase of CDs whose title ends
+with the letter S;
+db.CDs.find(
+  { "titulo": { $regex: /S$/ } },
+  { _id: 0, "titulo": 1, "data_compra": 1, "valor_pago": 1, "local_compra": 1 }
+) (mal)
+
+
+15. Show the CD code and artist of all songs; 
+
+    db.CDs.find({},{ _id: 0, cod_cd:1,"listaMusicas.interprete":true});
+
+16. Show all the data of all the songs on the CD with code 2;
+
+db.CDs.find(
+  { "cod_cd": 2 },
+  { _id: 0, "listaMusicas.cod_cd": 1, "listaMusicas.titulo": 1, "listaMusicas.interprete": 1, "listaMusicas.duracao": 1 }
+)
+
+17. Show all songs by Pink Floyd;
+
+db.CDs.find(
+  { "listaMusicas.interprete": "Pink Floyd" },
+  { _id: 0, "listaMusicas.cod_cd": 1, "listaMusicas.titulo": 1, "listaMusicas.interprete": 1, "listaMusicas.duracao": 1 }
+)
+
+18. Show all the data of all the songs that do not belong to the CD with code 2;
+
+db.CDs.find(
+  { "cod_cd": { $ne: 2 } },
+  { _id: 0, "listaMusicas.cod_cd": 1, "listaMusicas.titulo": 1, "listaMusicas.interprete": 1, "listaMusicas.duracao": 1 }
+)
+
+19. Show CDs that were purchased at FNAC or have the word "Classic" in the title;
+
+db.CDs.find({
+  $or: [
+    { "local_compra": "FNAC" },
+    { "titulo": { $regex: /Classic/i } }
+  ]
+})
+
+20. Show CDs with a purchase date greater than 2019-11-20;
+
+db.CDs.find({
+  "data_compra.$date": { $gt: new Date("2019-11-20") }
+})

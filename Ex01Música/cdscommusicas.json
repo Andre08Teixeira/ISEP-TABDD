@@ -1,0 +1,544 @@
+[{
+  "cod_cd": 1,
+  "id_editora": 8,
+  "titulo": "Punkzilla",
+  "data_compra": {
+    "$date": {
+      "$numberLong": "1301698800000"
+    }
+  },
+  "valor_pago": 55,
+  "local_compra": "FNAC",
+  "listaMusicas": [
+    {
+      "nr_musica": 1,
+      "cod_cd": 1,
+      "titulo": "Dream of Waking",
+      "interprete": "AFI",
+      "duracao": 3.05
+    },
+    {
+      "nr_musica": 2,
+      "cod_cd": 1,
+      "titulo": "Still",
+      "interprete": "Rufio",
+      "duracao": 3.02
+    },
+    {
+      "nr_musica": 3,
+      "cod_cd": 1,
+      "titulo": "Behind the Music",
+      "interprete": "The Vandals",
+      "duracao": 2.41
+    },
+    {
+      "nr_musica": 4,
+      "cod_cd": 1,
+      "titulo": "Why Are You Alive",
+      "interprete": "The Vandals",
+      "duracao": 2.34
+    },
+    {
+      "nr_musica": 5,
+      "cod_cd": 1,
+      "titulo": "Vandals",
+      "interprete": "The Vandals",
+      "duracao": 4.01
+    },
+    {
+      "nr_musica": 6,
+      "cod_cd": 1,
+      "titulo": "Days of the Phoenix",
+      "interprete": "AFI",
+      "duracao": 3.28
+    },
+    {
+      "nr_musica": 7,
+      "cod_cd": 1,
+      "titulo": "Wester",
+      "interprete": "AFI",
+      "duracao": 3.02
+    },
+    {
+      "nr_musica": 8,
+      "cod_cd": 1,
+      "titulo": "Blue Jeans",
+      "interprete": "Lana Del Rey",
+      "duracao": 3.29
+    }
+  ]
+},{
+  "cod_cd": 2,
+  "id_editora": 1,
+  "titulo": "Classic Duets",
+  "data_compra": {
+    "$date": {
+      "$numberLong": "1494457200000"
+    }
+  },
+  "valor_pago": 30.5,
+  "local_compra": "Worten",
+  "listaMusicas": [
+    {
+      "nr_musica": 1,
+      "cod_cd": 2,
+      "titulo": "Bizet: Les pécheurs de perles...",
+      "interprete": "Orquestra Filarmónica Real",
+      "duracao": 5.24
+    },
+    {
+      "nr_musica": 2,
+      "cod_cd": 2,
+      "titulo": "Verdi: Otello/Act 2",
+      "interprete": "Orquestra Sinfónica Chicago",
+      "duracao": 6.47
+    },
+    {
+      "nr_musica": 3,
+      "cod_cd": 2,
+      "titulo": "Verdi: Aida/Act 4",
+      "interprete": "Loring Maazel",
+      "duracao": 4.38
+    },
+    {
+      "nr_musica": 4,
+      "cod_cd": 2,
+      "titulo": "Puccini: Turandot",
+      "interprete": "Zubin Mehta",
+      "duracao": 3.08
+    }
+  ]
+},{
+  "cod_cd": 3,
+  "id_editora": 7,
+  "titulo": "The Wall",
+  "data_compra": {
+    "$date": {
+      "$numberLong": "1303426800000"
+    }
+  },
+  "valor_pago": 25.8,
+  "local_compra": "FNAC",
+  "listaMusicas": [
+    {
+      "nr_musica": 1,
+      "cod_cd": 3,
+      "titulo": "In the Flesh",
+      "interprete": "Pink Floyd",
+      "duracao": 3.02
+    },
+    {
+      "nr_musica": 2,
+      "cod_cd": 3,
+      "titulo": "The Thin Lee",
+      "interprete": "Pink Floyd",
+      "duracao": 2.3
+    },
+    {
+      "nr_musica": 3,
+      "cod_cd": 3,
+      "titulo": "Mother",
+      "interprete": "Pink Floyd",
+      "duracao": 5.34
+    },
+    {
+      "nr_musica": 4,
+      "cod_cd": 3,
+      "titulo": "Don't Leave Me Now",
+      "interprete": "Pink Floyd",
+      "duracao": 4.1
+    },
+    {
+      "nr_musica": 5,
+      "cod_cd": 3,
+      "titulo": "Young Lust",
+      "interprete": "Pink Floyd",
+      "duracao": 3.19
+    }
+  ]
+},{
+  "cod_cd": 4,
+  "id_editora": 1,
+  "titulo": "Hits 4",
+  "data_compra": {
+    "$date": {
+      "$numberLong": "1504998000000"
+    }
+  },
+  "valor_pago": 42.3,
+  "local_compra": "Worten",
+  "listaMusicas": [
+    {
+      "nr_musica": 1,
+      "cod_cd": 4,
+      "titulo": "It's Alright(Baby's Coming Back)",
+      "interprete": "Eurythmics",
+      "duracao": 3.05
+    },
+    {
+      "nr_musica": 2,
+      "cod_cd": 4,
+      "titulo": "Hounds of Love",
+      "interprete": "Kate Bush",
+      "duracao": 3.02
+    },
+    {
+      "nr_musica": 3,
+      "cod_cd": 4,
+      "titulo": "Calling America",
+      "interprete": "Electric Light Orchestra",
+      "duracao": 2.41
+    },
+    {
+      "nr_musica": 4,
+      "cod_cd": 4,
+      "titulo": "Suspicious Minds",
+      "interprete": "Fine Young Cannibals",
+      "duracao": 2.34
+    },
+    {
+      "nr_musica": 5,
+      "cod_cd": 4,
+      "titulo": "I'm Your Man",
+      "interprete": "Wham!",
+      "duracao": 3.28
+    },
+    {
+      "nr_musica": 6,
+      "cod_cd": 4,
+      "titulo": "Blue Jeans",
+      "interprete": "Lana Del Rey",
+      "duracao": 3.29
+    }
+  ]
+},{
+  "cod_cd": 5,
+  "id_editora": 6,
+  "titulo": "Songs of Experience",
+  "data_compra": {
+    "$date": {
+      "$numberLong": "1514764800000"
+    }
+  },
+  "valor_pago": 10.99,
+  "listaMusicas": [
+    {
+      "nr_musica": 1,
+      "cod_cd": 5,
+      "titulo": "Love is All We Have Left",
+      "interprete": "U2",
+      "duracao": 2.41
+    },
+    {
+      "nr_musica": 2,
+      "cod_cd": 5,
+      "titulo": "Lights of Home",
+      "interprete": "U2",
+      "duracao": 4.16
+    },
+    {
+      "nr_musica": 3,
+      "cod_cd": 5,
+      "titulo": "You're the Best Thing About Me",
+      "interprete": "U2",
+      "duracao": 3.45
+    },
+    {
+      "nr_musica": 4,
+      "cod_cd": 5,
+      "titulo": "Get Out of Your Own Way",
+      "interprete": "U2",
+      "duracao": 3.58
+    },
+    {
+      "nr_musica": 5,
+      "cod_cd": 5,
+      "titulo": "American Soul",
+      "interprete": "U2",
+      "duracao": 4.21
+    },
+    {
+      "nr_musica": 6,
+      "cod_cd": 5,
+      "titulo": "Summer of Love",
+      "interprete": "U2",
+      "duracao": 3.24
+    },
+    {
+      "nr_musica": 7,
+      "cod_cd": 5,
+      "titulo": "Red Flag Day",
+      "interprete": "U2",
+      "duracao": 3.19
+    },
+    {
+      "nr_musica": 8,
+      "cod_cd": 5,
+      "titulo": "The Showman",
+      "interprete": "U2",
+      "duracao": 3.23
+    }
+  ]
+},{
+  "cod_cd": 6,
+  "id_editora": 5,
+  "titulo": "Giesta 2",
+  "data_compra": {
+    "$date": {
+      "$numberLong": "1497481200000"
+    }
+  },
+  "valor_pago": 9.1,
+  "listaMusicas": [
+    {
+      "nr_musica": 1,
+      "cod_cd": 6,
+      "titulo": "Valsa em Espiral",
+      "interprete": "Miguel Araújo",
+      "duracao": 3.34
+    },
+    {
+      "nr_musica": 2,
+      "cod_cd": 6,
+      "titulo": "1987",
+      "interprete": "Miguel Araújo",
+      "duracao": 4.12
+    },
+    {
+      "nr_musica": 3,
+      "cod_cd": 6,
+      "titulo": "Meio Conto",
+      "interprete": "Miguel Araújo",
+      "duracao": 3.13
+    },
+    {
+      "nr_musica": 4,
+      "cod_cd": 6,
+      "titulo": "Via Norte",
+      "interprete": "Miguel Araújo",
+      "duracao": 3.35
+    },
+    {
+      "nr_musica": 5,
+      "cod_cd": 6,
+      "titulo": "Sangemil",
+      "interprete": "Miguel Araújo",
+      "duracao": 4.03
+    },
+    {
+      "nr_musica": 6,
+      "cod_cd": 6,
+      "titulo": "Lurdes Valsa Lenta",
+      "interprete": "Miguel Araújo",
+      "duracao": 4.41
+    },
+    {
+      "nr_musica": 7,
+      "cod_cd": 6,
+      "titulo": "Axl Rose",
+      "interprete": "Miguel Araújo",
+      "duracao": 5.03
+    },
+    {
+      "nr_musica": 8,
+      "cod_cd": 6,
+      "titulo": "20% Mais",
+      "interprete": "Miguel Araújo",
+      "duracao": 1.2
+    },
+    {
+      "nr_musica": 9,
+      "cod_cd": 6,
+      "titulo": "Vândalo",
+      "interprete": "Miguel Araújo",
+      "duracao": 4.45
+    },
+    {
+      "nr_musica": 10,
+      "cod_cd": 6,
+      "titulo": "Aqui Dali",
+      "interprete": "Miguel Araújo",
+      "duracao": 4.45
+    }
+  ]
+},{
+  "cod_cd": 7,
+  "id_editora": 4,
+  "titulo": "O Mundo ao Contrário",
+  "data_compra": {
+    "$date": {
+      "$numberLong": "1072915200000"
+    }
+  },
+  "valor_pago": 12.9,
+  "local_compra": "FNAC",
+  "listaMusicas": [
+    {
+      "nr_musica": 1,
+      "cod_cd": 7,
+      "titulo": "Desejo",
+      "interprete": "Xutos e Pontapés",
+      "duracao": 3.25
+    },
+    {
+      "nr_musica": 2,
+      "cod_cd": 7,
+      "titulo": "Diz-me",
+      "interprete": "Xutos e Pontapés",
+      "duracao": 4.37
+    },
+    {
+      "nr_musica": 3,
+      "cod_cd": 7,
+      "titulo": "Ai Se Ele Cai",
+      "interprete": "Xutos e Pontapés",
+      "duracao": 3.12
+    },
+    {
+      "nr_musica": 4,
+      "cod_cd": 7,
+      "titulo": "Pequeno Pormenor",
+      "interprete": "Xutos e Pontapés",
+      "duracao": 2.58
+    },
+    {
+      "nr_musica": 5,
+      "cod_cd": 7,
+      "titulo": "Zona Limite",
+      "interprete": "Xutos e Pontapés",
+      "duracao": 3.27
+    },
+    {
+      "nr_musica": 6,
+      "cod_cd": 7,
+      "titulo": "Fim de Semana",
+      "interprete": "Xutos e Pontapés",
+      "duracao": 5.27
+    },
+    {
+      "nr_musica": 7,
+      "cod_cd": 7,
+      "titulo": "Gota a Gota",
+      "interprete": "Xutos e Pontapés",
+      "duracao": 2.35
+    },
+    {
+      "nr_musica": 8,
+      "cod_cd": 7,
+      "titulo": "Teimosia",
+      "interprete": "Xutos e Pontapés",
+      "duracao": 4.13
+    },
+    {
+      "nr_musica": 9,
+      "cod_cd": 7,
+      "titulo": "O Mundo ao Contrário",
+      "interprete": "Xutos e Pontapés",
+      "duracao": 4.18
+    },
+    {
+      "nr_musica": 10,
+      "cod_cd": 7,
+      "titulo": "Sombra Colorida",
+      "interprete": "Xutos e Pontapés",
+      "duracao": 2.38
+    }
+  ]
+},{
+  "cod_cd": 8,
+  "id_editora": 3,
+  "titulo": "Born to Die",
+  "data_compra": {
+    "$date": {
+      "$numberLong": "1327622400000"
+    }
+  },
+  "valor_pago": 9.9,
+  "local_compra": "iTunes",
+  "listaMusicas": [
+    {
+      "nr_musica": 1,
+      "cod_cd": 8,
+      "titulo": "Born to Die",
+      "interprete": "Lana Del Rey",
+      "duracao": 4.46
+    },
+    {
+      "nr_musica": 2,
+      "cod_cd": 8,
+      "titulo": "Off the Races",
+      "interprete": "Lana Del Rey",
+      "duracao": 4.59
+    },
+    {
+      "nr_musica": 3,
+      "cod_cd": 8,
+      "titulo": "Blue Jeans",
+      "interprete": "Lana Del Rey",
+      "duracao": 3.29
+    },
+    {
+      "nr_musica": 4,
+      "cod_cd": 8,
+      "titulo": "Video Games",
+      "interprete": "Lana Del Rey",
+      "duracao": 4.41
+    },
+    {
+      "nr_musica": 5,
+      "cod_cd": 8,
+      "titulo": "Diet Mountain Dew",
+      "interprete": "Lana Del Rey",
+      "duracao": 3.42
+    },
+    {
+      "nr_musica": 6,
+      "cod_cd": 8,
+      "titulo": "National Anthen",
+      "interprete": "Lana Del Rey",
+      "duracao": 3.5
+    },
+    {
+      "nr_musica": 7,
+      "cod_cd": 8,
+      "titulo": "Dark Paradise",
+      "interprete": "Lana Del Rey",
+      "duracao": 4.03
+    },
+    {
+      "nr_musica": 8,
+      "cod_cd": 8,
+      "titulo": "Radio",
+      "interprete": "Lana Del Rey",
+      "duracao": 3.34
+    },
+    {
+      "nr_musica": 9,
+      "cod_cd": 8,
+      "titulo": "Carmen",
+      "interprete": "Lana Del Rey",
+      "duracao": 4.08
+    },
+    {
+      "nr_musica": 10,
+      "cod_cd": 8,
+      "titulo": "Million Dollar Man",
+      "interprete": "Lana Del Rey",
+      "duracao": 3.5
+    },
+    {
+      "nr_musica": 11,
+      "cod_cd": 8,
+      "titulo": "Summertime Sadness",
+      "interprete": "Lana Del Rey",
+      "duracao": 4.24
+    },
+    {
+      "nr_musica": 12,
+      "cod_cd": 8,
+      "titulo": "This Is What Make Us Girls",
+      "interprete": "Lana Del Rey",
+      "duracao": 4
+    }
+  ]
+}]
